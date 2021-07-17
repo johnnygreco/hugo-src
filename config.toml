@@ -12,13 +12,16 @@ theme = "LoveIt"
   # LoveIt theme version
   version = "0.2.X"
 
+  [params.page]
+    twemoji = true
+
   [params.home]
     [params.home.profile]
       enable = true
       social = true
       avatarURL = "/images/me.png"
-      title = "Hi, I'm Johnny :)"
-      subtitle = "Data Scientist, Former Astronomer, Musician"
+      title = "hi, i'm johnny 👋"
+      subtitle = "data scientist, former astronomer, musician"
       typeit = false
 
   [params.social]
@@ -27,6 +30,12 @@ theme = "LoveIt"
     twitter = "johnnypgreco"
     medium = "@johnnypgreco"
     Email = "jgreco.pixels@gmail.com"
+
+    # Home page posts
+    [params.home.posts]
+      enable = false
+      # special amount of posts in each home posts page
+      paginate = 6
 
   [params.footer]
     enable = false
@@ -38,8 +47,9 @@ theme = "LoveIt"
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
-    name = "Posts"
-    url = "/posts/"
+    name = ""
+#    url = "/posts/"
+    url = "/"
     # title will be shown when you hover on this menu link
     title = ""
     weight = 1
@@ -47,7 +57,7 @@ theme = "LoveIt"
     identifier = "tags"
     pre = ""
     post = ""
-    name = "Tags"
+    name = ""
     url = "/tags/"
     title = ""
     weight = 2
@@ -55,7 +65,7 @@ theme = "LoveIt"
     identifier = "categories"
     pre = ""
     post = ""
-    name = "Categories"
+    name = ""
     url = "/categories/"
     title = ""
     weight = 3
