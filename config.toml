@@ -21,7 +21,7 @@ theme = "LoveIt"
       social = true
       avatarURL = "/images/me.png"
       title = "hi, i'm johnny 👋"
-      subtitle = "data scientist, former astronomer, musician"
+      subtitle = "data scientist, freelance astronomer, musician"
       typeit = false
 
   [params.social]
@@ -29,7 +29,7 @@ theme = "LoveIt"
     github = "johnnygreco"
     twitter = "johnnypgreco"
 #    medium = "@johnnypgreco"
-    Email = "jgreco.pixels@gmail.com"
+    Email = "jgreco.ai@gmail.com"
 
     # Home page posts
     [params.home.posts]
