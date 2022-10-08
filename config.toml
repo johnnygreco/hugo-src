@@ -1,4 +1,4 @@
-baseURL = "https://johnnygreco.space"
+baseURL = "https://johnnygreco.dev"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "en"
 # language code
@@ -11,6 +11,7 @@ theme = "LoveIt"
 [params]
   # LoveIt theme version
   version = "0.2.X"
+  description = "Johnny Greco - data science - machine learning - AI"
 
   [params.page]
     twemoji = true
@@ -36,6 +37,10 @@ theme = "LoveIt"
       enable = false
       # special amount of posts in each home posts page
       paginate = 6
+
+  [params.header]
+    [params.header.title]
+      name = "Johnny Greco"
 
   [params.footer]
     enable = false
