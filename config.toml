@@ -22,13 +22,12 @@ theme = "LoveIt"
       social = true
       avatarURL = "/images/me.png"
       title = "hi, i'm johnny 👋"
-      subtitle = "data scientist, freelance astronomer, musician"
+      subtitle = "applied machine learning scientist"
       typeit = false
 
   [params.social]
     linkedin = "johnnygreco"
     github = "johnnygreco"
-    twitter = "johnnypgreco"
     googlescholar = "user=CDWpgoAAAAAJ"
     Email = "jgreco.ai@gmail.com"
 
